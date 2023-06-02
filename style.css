@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(76, 76, 76);
+}
+
+#area-cabecalho {
+    text-align: center;
+    height: 40rem;
+    /* vertical-align: center; */
+    background-image: url("img/paredeDeBlocos.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    color: white;
+    background-color: transparent;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#logo, #menu{
+    display: block;
+}
+
+#logo {
+    vertical-align: center;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+#menu {
+    float: center;
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+#menu ul{
+    padding-top: 170px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: right;
+    background-color: transparent;
+}
+
+#menu ul li{
+    list-style-type: none;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 630;
+    font-size: 20px;
+    color: black;
+    border-color: red;
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#menu ul li:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#ideo {
+    display: block;
+    margin-top: -250px;
+    margin-left: 40px;
+    background-color: transparent;
+}
+
+video {
+    border-radius: 40px;
+}
+
+#Sobre {
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+#Elementos {
+    margin: 30px;
+    width: 40rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+img {
+    height: 60px;
+    background-color: white;
+}
+
+.Elementos {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Jogo {
+    float: right;
+    margin-top: -330px;
+    margin-right: 40px;
+    width: 35rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.fromJogo {
+    height: 7rem;
+    border-radius: 20px;
+}
+
+button {
+    margin-top: 10px;
+    height: 4rem;
+    width: 14rem;
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
